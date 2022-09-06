@@ -5,6 +5,7 @@
       class="page-nav-bar"
       title="登录"
     >
+    <!-- 退出 -->
       <van-icon
         slot="left"
         name="cross"
@@ -60,7 +61,7 @@
             size="small"
             type="default"
             @click="onSendSms"
-          >发送验证码</van-button>
+          >发验证码</van-button>
         </template>
       </van-field>
       <div class="login-btn-wrap">

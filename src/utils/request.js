@@ -13,10 +13,11 @@ const request = axios.create({
 request.interceptors.request.use(function (config) {
   // 请求发起会经过这里
   // config：本次请求的请求配置对象
-  const { user } = store.state
+  const { user } = store.state// 解构出来
   if (user && user.token) {
     config.headers.Authorization = `Bearer ${user.token}`
   }
+  // console.log(config);
 
   // 注意：这里务必要返回 config 配置对象，否则请求就停在这里出不去了
   return config
