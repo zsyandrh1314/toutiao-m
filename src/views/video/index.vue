@@ -1,7 +1,5 @@
 <template>
-  <div class="video-container">
-视频
-  </div>
+  <div class="video-container">视频</div>
 </template>
 
 <script>
@@ -12,19 +10,11 @@ export default {
   data () {
     return {}
   },
-  computed: {
-
-  },
+  computed: {},
   watch: {},
-  created () {
-
-  },
-  mounted () {
-
-  },
-  methods: {
-
-  }
+  created () {},
+  mounted () {},
+  methods: {}
 }
 </script>
 

@@ -16,7 +16,11 @@
           <span class="name">{{ userInfo.name }}</span>
         </div>
         <div class="right">
-          <van-button size="mini" round>编辑资料</van-button>
+          <van-button 
+            size="mini" 
+            round
+            to="/user/profile"
+          >编辑资料</van-button>
         </div>
       </div>
       <!-- 2、数据统计 -->
@@ -67,7 +71,6 @@
     <!-- (cell 单元格 ) -->
       <van-cell title="消息通知" is-link/>
       <van-cell class="mb-9" title="小智同学" is-link/>
-
       <van-cell
         v-if="user"
         class="logout-cell"

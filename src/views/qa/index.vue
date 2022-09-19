@@ -12,19 +12,11 @@ export default {
   data () {
     return {}
   },
-  computed: {
-
-  },
+  computed: {},
   watch: {},
-  created () {
-
-  },
-  mounted () {
-
-  },
-  methods: {
-
-  }
+  created () {},
+  mounted () {},
+  methods: {}
 }
 </script>
 

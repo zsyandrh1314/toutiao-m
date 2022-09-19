@@ -145,6 +145,7 @@ export default {
         return console.log('验证失败', err)
       }
 
+
       // 2. 验证通过，显示倒计时
       this.isCountDownShow = true
 
